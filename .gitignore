@@ -1,0 +1,24 @@
+# ── Python noise ──
+__pycache__/
+*.pyc
+
+# ── PyCharm ──
+.idea/
+.claude/
+
+# ── Secrets: NEVER commit ──
+users.py
+
+# ── Data & generated output (the "meal", not the "recipe") ──
+data/
+Raws/
+Output/
+logs/
+*.db
+*.xlsx
+*.csv
+
+# ── Manual backup archives (git replaces these) ──
+Production Folder/
+Server DB/
+dashLog*.txt

@@ -1,0 +1,3 @@
+.venv\Scripts\python.exe -m waitress --listen=192.168.1.8:8050 index:server
+
+http://192.168.1.8:8050/admin/upload?token=ACL-d4mRk9pX-2026
